@@ -18,7 +18,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // ESP Now Settings
 // MAC Address of responder - edit as required
-uint8_t broadcastAddress[] = {0x24, 0x6F, 0x28, 0x7A, 0xAE, 0x7C};
+uint8_t broadcastAddress[] = {0x5C, 0x01, 0x3B, 0x8A, 0xDA, 0x74};
 
 #define DEVICE_ADDR 1 //<< Address you are assigning to this device
 #define DEVICE_TYPE 0x01 //<< Device ID Temp/Humidity
